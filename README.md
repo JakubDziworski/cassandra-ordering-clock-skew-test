@@ -1,5 +1,7 @@
 # Cassandra ordering with clock skew test
 
+See blogpost - [Cassandra Updates Ordering](http://jakubdziworski.github.io/java/cassandra/database/2022/11/22/cassandra-updates-ordering.html)
+
 ## What is this testing?
 1. 3 node Cassandra cluster is started (Based on [digitals-io](https://github.com/digitalis-io/ccc) - thanks!).
 2. Each node has some clock drift (check `FAKETIME` env variables in `docker-compose.yml`).
